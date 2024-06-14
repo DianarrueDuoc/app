@@ -64,3 +64,19 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# Python virtual environment
+venv/
+
+# Pycache files
+__pycache__/
+*.pyc
+
+# Instance folder (for Flask)
+instance/
+
+# Uploads folder
+uploads/
+
+# Generated images folder
+generated_images/
