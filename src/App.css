@@ -1,0 +1,124 @@
+body {
+  font-family: 'Caveat', 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8e6e0;
+  color: #333;
+}
+
+.App {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 5px solid #ffcad4;
+  text-align: center;
+}
+
+h1 {
+  color: #d46a6a;
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ff8a80;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff5252;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.pdf-image-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pdf-image-container div {
+  flex: 1 1 calc(33% - 40px); /* Ajusta este valor según el número de imágenes y el espacio deseado */
+  box-sizing: border-box;
+  max-width: 300px; /* Ajusta el tamaño máximo de las imágenes */
+}
+
+.pdf-image-container img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.story-container {
+  background-color: #ffe0b2;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-align: left;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .App {
+      width: 90%;
+      margin: 20px auto;
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 2em;
+  }
+
+  button {
+      padding: 8px 16px;
+      font-size: 1em;
+  }
+
+  input[type="file"] {
+      font-size: 0.9em;
+  }
+
+  .story-container {
+      padding: 10px;
+      font-size: 1em;
+  }
+
+  .pdf-image-container div {
+      flex: 1 1 100%; /* Cambia a una sola columna en pantallas pequeñas */
+      max-width: none; /* Quita el límite de tamaño en pantallas pequeñas */
+  }
+}
