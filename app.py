@@ -18,7 +18,12 @@ openai.api_key = 'sk-proj-dXZhJNiQdoDvYMNhmJKjT3BlbkFJfn3bnF5Wlx0gyZ1yhJy7'
 leonardo_api_key = 'e9790eaa-1bfd-41bc-8947-6154bf8d9687'
 
 # Configura Firebase Admin SDK
-cred = credentials.Certificate("ruta/a/tu/archivo/de/credenciales.json")
+credenciales_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+
+if credenciales_path is None:
+    raise Exception("GOOGLE_APPLICATION_CREDENTIALS no está configurado.")
+
+cred = credentials.Certificate("credenciales.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
@@ -176,4 +181,5 @@ def get_image(filename):
     return send_from_directory('C:/Users/diana/my-app/backend/generated_images', filename)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(debug=True, host='0.0.0.0', port=port)

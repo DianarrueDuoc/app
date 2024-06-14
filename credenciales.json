@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cuentacuentos-426421",
+  "private_key_id": "2d2444a55164fd9e69199041bd4fbc6fcf75ad9b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCNi+ieeHcPVOK0\n8t7nvoNFS6O7YBfiCS9JKPvRvXWIS2yiyRMBwTsu6Vw8+gmjIs4jAuj+a0gl1VWJ\nY9aCLCSpStTgXnm7sxzN8WwWAG6vlouLmUb+/LTvDIHOeORHXIvBRY2rfwVxOayL\ni0Zustn4lZu2NLAQ319QMpH29uPq4i9e5feG5X0Ar3wGC7fqnG+GoHwmsZmPSktl\nuJSXPs27oLNq48xYgCx6XPII8wa4fpLGQy0TVVoma2mDFAc3l8XMmhci9XNENjLO\ne5AM7ZHZTJWMFTXjLCh/6F+Zdt3r7rceCyjxDxgOzL13uX2KKVF71lnKPhcvyCiX\nccdHbugNAgMBAAECggEAAJsXMUpxtAKYf87ETnidxjenKT+lioWgiq8euMyXSrCL\n8/xpVOoXT0GXb/lf/i9Bc5vpFGGwKt1JYu+m9OKse38C/zzYR4niNy1v2X5B+wVp\nbn0G9UNuoNFMYu5Yh8epH3glPZUrGEt3ZheAAyxHy40UYAjEsiXKmiTFRCnVWuWA\nTjgxEYkKmFA3fF1JsJiJqpYqBZ/7lVL7CTh4vMjebcwtMGNYIxHGYuRRM67hBHMy\nFkLSdQaoXuJ2uv5ugg32vv6buBXwdJoUvXGt1ywHatK8fyOPrAgj1X1v5W5bvKe/\nGc4k6X0KKaeqTq1gDSuDtA0vZMrq1YFq9yc30om87wKBgQDAxzhb9mfeJbVJTg5r\npJsu5kqGm/Xcargoo9tpMHNKNzLRbpBI3/CSegfZ8EhzLQxEzORdYtwU21Mt1iZs\nKgRJH5p9iJFF17wLSEN7dKFLopDnoX+oyicOTlyZDqA6EEiNJEFKWwjHfpQb9N3Z\n8bBsWIi3S1aq5hwDXJmJND11XwKBgQC794JzM0ysrYQxRpIC6SmgV3pdxvbfFl3J\nIiRlHw3xVygTqpz1obX5OLs53UUWqr0b0UvnGcfaeVW7fGjP/+l1aZhGX9Y4y1wu\nWKj9dUehKHJf/4XAk/GaTZdJoPdXo4kufeZreGhJinIppADZZqwekzSWMfT/S7ln\nyfbWtgwOEwKBgASfwrZR/sPRW7vaZ3YliKNjWr5H12nmFWzEIWswglNxZ4KmiEd3\nN6oLy0xq+xHoLrcnwwKKcIT/jcs3q8xEZb3rSCVitTlbp2MN5LB9Z7EMwTUNJqbB\n0pYBQy9Yrnc2FMdt6zMBZACFBMB26ytjJLw0k3LyF64ZvupFulkUK7U5AoGAfV7Y\n432T5pjVUwh+2vIpkYjHVUUf5CxG4aCkJc5Qvmgjkvp5Nlxlw5TTTAUJz9SRzbwL\npFjNtCq5xBN21UUbsfR8XHQPrlH1afQ4wtU2sYcIwn7r90a2HvUhszppv0qUdS4E\nQipNZL+y5ZM9/cM9iiclLAimIKGhSFitCwjhgYECgYEAhSPYpWGKUhfnyAaGWStm\nUlMFNo2w/obQulL7PCZoMCjHfNmcEPWggmyr+PPvBXo3mPcLASGW+/5ih6yaiVlB\nE6+kFHDLAc78njGbspydcAiPibWBBdLOvf9xgofatE37Kj20BL4d3ppUPTvrub/A\nLhZnwMj/K8Btq6sm1LIzcWA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cuentacuentos@cuentacuentos-426421.iam.gserviceaccount.com",
+  "client_id": "104088824660097608188",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cuentacuentos%40cuentacuentos-426421.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
